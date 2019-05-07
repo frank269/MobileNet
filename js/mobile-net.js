@@ -7,7 +7,7 @@ async function loadModel() {
 	loader.style.display = "block";
 	modelName = "mobilenet";
 	model = undefined;
-	model = await tf.loadLayersModel('https://gogul09.github.io/models/mobilenet/model.json');
+	model = await tf.loadLayersModel('https://frank269.github.io/MobileNet/output/mobilenet/model.json');
 	loader.style.display = "none";
 	console.log("model loaded..");
 }
